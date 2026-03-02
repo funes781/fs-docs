@@ -19,7 +19,7 @@ const App = () => (
         <TooltipProvider>
             <Toaster />
             <Sonner />
-            <BrowserRouter>
+            <BrowserRouter basename="/fs-docs">
                 <Routes>
                     <Route path="/" element={<Index />} />
                     <Route path="*" element={<NotFound />} />
